@@ -4,6 +4,9 @@ a unicode hell
 ## WHAT IS THIS
 Textify is a text application that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
 
+## INSTALLATION
+`Textify\textify\bin\Release\textify.exe` is a stand-alone and the only file you need.
+
 ## HOW TO USE
 1. Type the text you wish to convert in the text box at the top
 2. Click on the desired typeface
