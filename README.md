@@ -13,7 +13,7 @@ Textify is a text application that converts text to typefaces (fonts) that you c
 6. Spanish inquasition
 7. Profit
 
-##CREDIT
+## CREDIT
 made by the very bored developer Ari Hanan.
 
 > Textify, v1.5
