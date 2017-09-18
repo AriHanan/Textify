@@ -1,6 +1,4 @@
-<a href="https://aimeos.org/">
-    <img src="https://github.com/AriHanan/Textify/blob/master/ICON/Untitled.png" alt="Textify Logo" title="Textify" align="right" height="60" />
-</a>
+<img src="https://github.com/AriHanan/Textify/blob/master/ICON/Untitled.png" alt="Textify Logo" title="Textify" align="right" height="60" />
 
 Textify
 ======================
