@@ -1,4 +1,9 @@
-# Textify
+<a href="https://aimeos.org/">
+    <img src="https://github.com/AriHanan/Textify/blob/master/ICON/Untitled.png" alt="Textify Logo" title="Textify" align="right" height="60" />
+</a>
+
+Textify
+======================
 Textify is a text application that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
 
 ## Installation
