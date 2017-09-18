@@ -8,7 +8,7 @@ Textify is a text application that converts text to typefaces (fonts) that you c
 you can also use the fancy button below
 
 <a href="https://github.com/AriHanan/Textify/raw/master/textify/bin/Release/textify.exe">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="100" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="50" />
 </a>
 
 ## How to use
