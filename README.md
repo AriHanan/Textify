@@ -25,6 +25,6 @@ Once downloaded simply run.
 <img src="https://github.com/AriHanan/Textify/blob/master/Resources/How%20to%20use.gif" alt="This gif took 58 takes to make." title="This gif took 58 takes to make." align="middle" />
 
 ## Author
-made by the very bored developer Ari Hanan.
+made by the very bored developer <a href="https://github.com/AriHanan">Ari Hanan</a>.
 
 > Textify, v1.5
