@@ -4,7 +4,7 @@ Textify is a text application that converts text to typefaces (fonts) that you c
 
 ## Installation
 <a href="https://github.com/AriHanan/Textify/raw/master/textify/bin/Release/textify.exe">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="50" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="65" />
 </a>
 
 `Textify\textify\bin\Release\textify.exe` is a stand-alone and the only file you need.
