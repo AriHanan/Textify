@@ -1,7 +1,8 @@
-<img src="https://github.com/AriHanan/Textify/blob/master/ICON/Untitled.png" alt="Textify Logo" title="Textify" align="right" height="60" />
+<img src="https://github.com/AriHanan/Textify/blob/master/Resources/full%20logo.png" alt="Textify" title="Textify" align="center" height="60" />
 
-Textify
+
 ======================
+
 Textify is a text application that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
 
 ## Installation
@@ -16,7 +17,7 @@ Textify is a text application that converts text to typefaces (fonts) that you c
 6. Spanish inquasition
 7. Profit
 
+> Textify, v1.5
+
 ## Author
 made by the very bored developer Ari Hanan.
-
-> Textify, v1.5
