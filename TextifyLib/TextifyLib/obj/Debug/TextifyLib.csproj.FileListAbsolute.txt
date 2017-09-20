@@ -1,0 +1,4 @@
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyLib\TextifyLib\bin\Debug\TextifyLib.dll
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyLib\TextifyLib\bin\Debug\TextifyLib.pdb
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyLib\TextifyLib\obj\Debug\TextifyLib.dll
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyLib\TextifyLib\obj\Debug\TextifyLib.pdb
