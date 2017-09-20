@@ -10,7 +10,7 @@ Textify is a text application and library that converts text to typefaces (fonts
   - <a href="https://github.com/AriHanan/Textify#how-to-use">How to use</a>
 - <a href="https://github.com/AriHanan/Textify#library">Library</a>
   - <a href="https://github.com/AriHanan/Textify#setup">Setup</a>
-  - <a href="https://github.com/AriHanan/Textify#how-to-use">How to use</a>
+  - <a href="https://github.com/AriHanan/Textify#how-to-use-1">How to use</a>
     - <a href="https://github.com/AriHanan/Textify#decleration">Declaration</a>
 	- <a href="https://github.com/AriHanan/Textify#convert-text">Convert text</a>
 - <a href="https://github.com/AriHanan/Textify#author">Author</a>
@@ -57,6 +57,7 @@ The library can be declared with `using TextifyLib;`.
 
 ### Convert text
 Text can be converted by the following line:
+
 `TextifyLib.Typefaces.[typeface].Convert([string]);` (with [typeface] and [string] replaced with values)
 
 EXAMPLE:
@@ -67,6 +68,7 @@ string converted = TextifyLib.Typefaces.CharFullwidth.Convert(text);
 Console.WriteLine("'{0}' converted to full width is: '{1}'", text, converted);
 ```
 outputs:
+
 `'Yesterday I woke up sucking a lemon' converted to full width is: 'Ｙｅｓｔｅｒｄａｙ　Ｉ　ｗｏｋｅ　ｕｐ　ｓｕｃｋｉｎｇ　ａ　ｌｅｍｏｎ'`
 
 # Author
