@@ -293,6 +293,7 @@
             this.c_inverted.Size = new System.Drawing.Size(200, 29);
             this.c_inverted.TabIndex = 13;
             this.c_inverted.Text = "Inverted";
+            this.c_inverted.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.c_inverted.UseVisualStyleBackColor = true;
             this.c_inverted.CheckedChanged += new System.EventHandler(this.CopyHandler);
             // 
@@ -585,7 +586,7 @@
             this.Halp.UseVisualStyleBackColor = true;
             this.Halp.Click += new System.EventHandler(this.Halp_Click);
             // 
-            // Textify
+            // TextifyApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -631,7 +632,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Textify";
+            this.Name = "TextifyApp";
             this.ShowIcon = false;
             this.Text = "Textify";
             ((System.ComponentModel.ISupportInitialize)(this.zalgo_intensity)).EndInit();

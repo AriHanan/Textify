@@ -7,7 +7,6 @@ C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textif
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.exe
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.pdb
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\TextifyLib.dll
-C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\TextifyApp.csprojResolveAssemblyReference.cache
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\TextifyApp.Instructions.resources
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\TextifyApp.TextifyApp.resources
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\TextifyApp.Generator.resources
