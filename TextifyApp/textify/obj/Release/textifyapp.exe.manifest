@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1519040">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1519552">
       <assemblyIdentity name="textifyapp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>rn5MuoME76bG/+cn2CsXIg97m8MXFCUAo/dUoyeaEIk=</dsig:DigestValue>
+        <dsig:DigestValue>zYovzzEM94wXr5ER1wSr6fTWJ/qDfDRwfDOEa7EptkE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

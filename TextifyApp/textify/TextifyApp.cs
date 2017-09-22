@@ -37,17 +37,39 @@ namespace TextifyApp
                     Boolean.TryParse(file.ReadLine(), out bool top      );
                     Boolean.TryParse(file.ReadLine(), out bool mid      );
                     Boolean.TryParse(file.ReadLine(), out bool buttom   );
+                    Int32  .TryParse(file.ReadLine(), out int  chosenone);
                     file.Close();
-                    zalgo_intensity.Value = Math.Max(Math.Min(intensity, 3), 1);
+                    zalgo_intensity.Value = Math.Max(Math.Min(intensity, zalgo_intensity.Maximum), zalgo_intensity.Minimum);
                     zalgo_top   .Checked = top   ;
                     zalgo_middle.Checked = mid   ;
                     zalgo_buttom.Checked = buttom;
+                    chosenone += 2;
+                    foreach (Control control in Controls)
+                    {
+                        if (control is RadioButton)
+                        {
+                            RadioButton radio = control as RadioButton;
+                            if (radio.TabIndex == chosenone)
+                            {
+                                radio.Checked = true;
+                            }
+                        }
+                    }
+                    save = true;
+                }
+                else
+                {
+                    if (File.Exists("textifyapp.visualelementsmanifest.xml"))
+                    {
+                        save = true;
+                    }
                 }
             }
             catch { }
-            working = true;
 
             Labler();
+
+            working = true;
         }
         
         public string RandomConvertString(string cyrillic)
@@ -506,6 +528,34 @@ namespace TextifyApp
             }
         }
 
+        private void Save()
+        {
+            if (save)
+            {
+                int chosenone = 0;
+                foreach (Control control in Controls)
+                {
+                    if (control is RadioButton)
+                    {
+                        RadioButton radio = control as RadioButton;
+                        if (radio.Checked)
+                        {
+                            chosenone = radio.TabIndex - 2;
+                        }
+                    }
+                }
+
+                StreamWriter file = new StreamWriter("sliders");
+                file.WriteLine(zalgo_intensity.Value);
+                file.WriteLine(zalgo_top.Checked);
+                file.WriteLine(zalgo_middle.Checked);
+                file.WriteLine(zalgo_buttom.Checked);
+                file.WriteLine(chosenone);
+
+                file.Close();
+            }
+        }
+
         private void Labler()
         {
             c_serifbold.Text = "𝐒𝐞𝐫𝐢𝐟 𝐁𝐨𝐥𝐝";
@@ -558,7 +608,11 @@ namespace TextifyApp
 
         private void CopyHandler(object sender, EventArgs e)
         {
-            Copy();
+            if (working)
+            {
+                Copy();
+                Save();
+            }
         }
         
         private void Zalgo_Refresh(object sender, EventArgs e)
@@ -573,17 +627,9 @@ namespace TextifyApp
                 {
                     c_zalgo.Text = Zalgo.ToZalgo(c_txt.Text, zalgo_intensity.Value * 0.5f, zalgo_top.Checked, zalgo_middle.Checked, zalgo_buttom.Checked);
                 }
-                Copy();
 
-                if (save)
-                {
-                    StreamWriter file = new StreamWriter("sliders");
-                    file.WriteLine(zalgo_intensity.Value);
-                    file.WriteLine(zalgo_top.Checked);
-                    file.WriteLine(zalgo_middle.Checked);
-                    file.WriteLine(zalgo_buttom.Checked);
-                    file.Close();
-                }
+                Copy();
+                Save();
             }
         }
 
