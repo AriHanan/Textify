@@ -19,11 +19,11 @@ Textify is a text application and library that converts text to typefaces (fonts
 # App
 
 ## Installation
-<a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/textify/bin/Release/textify.exe">
+<a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/textify/bin/Release/textifyapp.exe">
 	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="65" />
 </a>
 
-`Textify/TextifyApp/textify/bin/Release/textify.exe` is a stand-alone and the only file you need.
+`Textify/TextifyApp/textify/bin/Release/textifyapp.exe` is a stand-alone and the only file you need.
 
 You can also use the fance button on the right.
 

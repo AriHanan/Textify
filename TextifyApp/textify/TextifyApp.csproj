@@ -145,7 +145,7 @@
     </Content>
     <Content Include="icon.ico" />
     <None Include="Resources\DONTPANIC.png" />
-    <Content Include="textify.visualelementsmanifest.xml">
+    <Content Include="textifyapp.visualelementsmanifest.xml">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

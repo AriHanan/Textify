@@ -1,6 +1,5 @@
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\browser\VisualElements\VisualElements_150.png
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\browser\VisualElements\VisualElements_70.png
-C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textify.visualelementsmanifest.xml
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.exe.config
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.exe.manifest
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.application
@@ -16,3 +15,4 @@ C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textif
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\textifyapp.application
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\textifyapp.exe
 C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\obj\Release\textifyapp.pdb
+C:\Users\User-PC\Documents\Visual Studio 2017\Projects\Textify\TextifyApp\textify\bin\Release\textifyapp.visualelementsmanifest.xml

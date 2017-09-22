@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+ar+i/pUtyXdbDckDTizoMrRyzi9sJf2HkaGcR336iI=</dsig:DigestValue>
+        <dsig:DigestValue>Dxz4SEa/Bb9za4EBrNGgnapMW6MCuGpMEQh8Autjz14=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -93,15 +93,6 @@
       <dsig:DigestValue>KCQsl4sdhEZPciZoF6jqFVw/Q4wKfH6LEVqPula3rLk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="textify.visualelementsmanifest.xml" size="356" writeableType="applicationData">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fIo1GlOg7w0dT9EFKazzlB/Vq80DOhId5axrkgsFI3I=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="textifyapp.exe.config" size="189">
     <hash>
       <dsig:Transforms>
@@ -109,6 +100,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="textifyapp.visualelementsmanifest.xml" size="356" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fIo1GlOg7w0dT9EFKazzlB/Vq80DOhId5axrkgsFI3I=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
