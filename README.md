@@ -13,6 +13,7 @@ Textify is a text application and library that converts text to typefaces (fonts
   - <a href="https://github.com/AriHanan/Textify#how-to-use-1">How to use</a>
     - <a href="https://github.com/AriHanan/Textify#decleration">Declaration</a>
 	- <a href="https://github.com/AriHanan/Textify#convert-text">Convert text</a>
+- <a href="https://github.com/AriHanan/Textify#license">License</a>
 - <a href="https://github.com/AriHanan/Textify#author">Author</a>
 
 # App
