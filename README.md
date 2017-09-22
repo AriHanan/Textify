@@ -75,7 +75,7 @@ outputs:
 # License
 This software and library are available under the MIT license.
 
-See LICENSE.md for the license itself.
+See <a href="https://github.com/AriHanan/Textify/blob/master/LICENSE.md">LICENSE.md</a> for the license itself.
 
 # Author
 made by the very bored developer <a href="https://github.com/AriHanan">Ari Hanan</a>.
