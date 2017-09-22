@@ -534,7 +534,7 @@ namespace TextifyApp
             c_mixed.Text = RandomConvertString("mixed");
             c_extrathicc.Text = "乇乂ㄒ尺卂 ㄒ卄丨匚匚";
             
-            c_zalgo.Text = Zalgo.ToZalgo("Zalgo", zalgo_intensity.Value, zalgo_top.Checked, zalgo_middle.Checked, zalgo_buttom.Checked);
+            c_zalgo.Text = Zalgo.ToZalgo("Zalgo", zalgo_intensity.Value * 0.5f, zalgo_top.Checked, zalgo_middle.Checked, zalgo_buttom.Checked);
             c_tm.Text = "Trademark™";
             c_nibba.Text = "Ni🅱🅱a";
             c_ae.Text = "LÆMON‽";
@@ -622,7 +622,7 @@ namespace TextifyApp
                 c_mixed.Text           = RandomConvertString                  (c_txt.Text);
                 c_extrathicc.Text      = Typefaces.CharExtraThicc     .Convert(c_txt.Text);
 
-                c_zalgo.Text           = Zalgo.ToZalgo                        (c_txt.Text, zalgo_intensity.Value, zalgo_top.Checked, zalgo_middle.Checked, zalgo_buttom.Checked);
+                c_zalgo.Text           = Zalgo.ToZalgo                        (c_txt.Text, zalgo_intensity.Value * 0.5f, zalgo_top.Checked, zalgo_middle.Checked, zalgo_buttom.Checked);
                 c_tm.Text              = c_txt.Text + "™";
                 c_nibba.Text           = CharNibba                    .Convert(c_txt.Text);
                 c_ae.Text              = CharAE                       .Convert(c_txt.Text);
@@ -792,7 +792,7 @@ namespace TextifyApp
             return newtxt;
         }
 
-        public static string GetZalgo(float size = 2, bool top = true, bool mid = true, bool buttom = true)
+        public static string GetZalgo(float size = 3, bool top = true, bool mid = true, bool buttom = true)
         {
             var newtxt = "";
             var numUp = 0;

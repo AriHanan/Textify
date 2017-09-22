@@ -477,7 +477,7 @@
             this.zalgo_intensity.TabIndex = 34;
             this.zalgo_intensity.TickStyle = System.Windows.Forms.TickStyle.Both;
             this.zalgo_intensity.Value = 6;
-            this.zalgo_intensity.ValueChanged += new System.EventHandler(this.Zalgo_Refresh);
+            this.zalgo_intensity.Scroll += new System.EventHandler(this.Zalgo_Refresh);
             // 
             // zalgo_group
             // 
