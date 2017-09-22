@@ -71,6 +71,11 @@ outputs:
 
 `'Yesterday I woke up sucking a lemon' converted to full width is: 'Ｙｅｓｔｅｒｄａｙ　Ｉ　ｗｏｋｅ　ｕｐ　ｓｕｃｋｉｎｇ　ａ　ｌｅｍｏｎ'`
 
+# License
+This software and library are available under the MIT license.
+
+See LICENSE.md for the license itself.
+
 # Author
 made by the very bored developer <a href="https://github.com/AriHanan">Ari Hanan</a>.
 
