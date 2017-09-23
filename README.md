@@ -23,8 +23,10 @@ Textify is a text application and library that converts text to typefaces (fonts
 	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="65" />
 </a>
 
+<br>
+
 <a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/download/TextifyPortable.exe">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="right" height="65" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="right" height="30" />
 </a>
 
 `Textify/TextifyApp/download/TextifyApp.zip` is a stand-alone and the only file you need.
