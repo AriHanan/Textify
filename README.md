@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-[![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg?style=flat-square)](https://www.nuget.org/packages/TextifyLib/)
+<a href="https://www.nuget.org/packages/TextifyLib/">
+<img src="https://img.shields.io/nuget/dt/TextifyLib.svg?style=flat-square" alt="Nuget" title="Nuget"/>
+</a>
 </p>
 
 Textify is a text application and library that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
