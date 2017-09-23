@@ -23,6 +23,7 @@ Textify is a text application and library that converts text to typefaces (fonts
     - <a href="https://github.com/AriHanan/Textify#decleration">Declaration</a>
 	- <a href="https://github.com/AriHanan/Textify#convert-text">Convert text</a>
 - <a href="https://github.com/AriHanan/Textify#license">License</a>
+- <a href="https://github.com/AriHanan/Textify#contact">Contact</a>
 - <a href="https://github.com/AriHanan/Textify#author">Author</a>
 
 # App
@@ -95,6 +96,11 @@ outputs:
 This software and library are available under the MIT license.
 
 See <a href="https://github.com/AriHanan/Textify/blob/master/LICENSE.md">LICENSE.md</a> for the license itself.
+
+# Contact
+If you have a feature request, want to send hate mail, or wish to contribute code, please reach me at AriHanan@protonmail.com.
+
+Happy cycling.
 
 # Author
 made by the very bored developer <a href="https://github.com/AriHanan">Ari Hanan</a>.
