@@ -68,7 +68,7 @@ App exclusives:
 
 ## Installation
 <a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyApp.zip">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="65" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="70" />
 </a>
 
 Click on the text above to download a zip.
@@ -78,7 +78,7 @@ Extract the contents of the zip on a prefered folder, then create a shortcut for
 For version history go to <a href="https://github.com/AriHanan/Textify/releases">Releases</a>
 
 <a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyPortable.exe">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="middle" height="40" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="middle" height="50" />
 </a>
 
 If you wish for a standalone version theres an exe in the same folder, however it does not remember the last choise upon restart, and it does not have the fancier icon when pinned to a Windows 10 start menu.
@@ -104,7 +104,7 @@ For version history go to <a href="https://github.com/AriHanan/Textify/releases"
 
 ## Setup
 <a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyLib.dll">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="65" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="70" />
 </a>
 
 The library is available at `Textify/TextifyLib/TextifyLib/bin/Release/TextifyLib.dll`.
