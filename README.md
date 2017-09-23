@@ -1,4 +1,6 @@
+<p align="center">
 <img src="https://github.com/AriHanan/Textify/blob/master/Resources/full%20logo.png" alt="Textify" title="Textify" align="middle" height="150" />
+</p>
 
 Textify is a text application and library that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
 
