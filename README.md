@@ -67,23 +67,27 @@ App exclusives:
 # App
 
 ## Installation
-<a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/download/TextifyApp.zip">
+<a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyApp.zip">
 	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="65" />
 </a>
 
-`Textify/TextifyApp/download/TextifyApp.zip` is a stand-alone and the only file you need.
+Click on the text above to download a zip.
 
-You can also use the fancy button above.
+Extract the contents of the zip on a prefered folder, then create a shortcut for `textifyapp.exe`.
 
-<a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/download/TextifyPortable.exe">
+For version history go to <a href="https://github.com/AriHanan/Textify/releases">Releases</a>
+
+<a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyPortable.exe">
 	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="middle" height="40" />
 </a>
 
-If you wish for a portable version theres a standalone in the same folder, however it does not remember the last choise upon restart, and it does not have the fancier icon when pinned to a Windows 10 start menu.
+If you wish for a standalone version theres an exe in the same folder, however it does not remember the last choise upon restart, and it does not have the fancier icon when pinned to a Windows 10 start menu.
 
 You can click the title here too.
 
 Once downloaded simply run.
+
+For version history go to <a href="https://github.com/AriHanan/Textify/releases">Releases</a>
 
 ## How to use
 1. Type the text you wish to convert in the text box at the top
@@ -99,7 +103,7 @@ Once downloaded simply run.
 # Library
 
 ## Setup
-<a href="https://github.com/AriHanan/Textify/raw/master/TextifyLib/TextifyLib/bin/Release/TextifyLib.dll">
+<a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyLib.dll">
 	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="65" />
 </a>
 
@@ -108,6 +112,8 @@ The library is available at `Textify/TextifyLib/TextifyLib/bin/Release/TextifyLi
 If you prefer, the library is also available on <a href="https://www.nuget.org/packages/TextifyLib/">NuGet</a>
 
 You can also use the download button.
+
+For version history go to <a href="https://github.com/AriHanan/Textify/releases">Releases</a>
 
 ## How to use
 
