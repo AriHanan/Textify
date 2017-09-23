@@ -4,7 +4,8 @@
 
 <p align="center">
 <a href="https://www.nuget.org/packages/TextifyLib/">
-<img src="https://img.shields.io/nuget/dt/TextifyLib.svg?style=flat-square" alt="Nuget" title="Nuget"/>
+<img src="https://img.shields.io/nuget/dt/TextifyLib.svg" alt="Downloads" title="Downloads"/>
+<img src="https://img.shields.io/nuget/v/TextifyLib.svg" alt="Nuget" title="Nuget"/>
 </a>
 </p>
 
