@@ -1,4 +1,5 @@
 ﻿using System;
+using SingleInstance;
 using System.Windows.Forms;
 
 namespace TextifyApp
@@ -13,7 +14,7 @@ namespace TextifyApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TextifyApp());
+            SingleApplication.Run(new TextifyApp());
         }
     }
 }
