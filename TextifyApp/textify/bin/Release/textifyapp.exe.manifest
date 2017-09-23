@@ -43,26 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1519552">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1542592">
       <assemblyIdentity name="textifyapp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zYovzzEM94wXr5ER1wSr6fTWJ/qDfDRwfDOEa7EptkE=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TextifyLib.dll" size="28160">
-      <assemblyIdentity name="TextifyLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lgXNQaCsbGCw0BcLxdgR3IW6Pg++FAwfEmp6ShXSwBU=</dsig:DigestValue>
+        <dsig:DigestValue>UJvjdL4b9ZoaPzPKheJwIAVae/Zb/TKxgJwo66KB2V4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
