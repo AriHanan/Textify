@@ -66,6 +66,8 @@ Once downloaded simply run.
 
 The library is available at `Textify/TextifyLib/TextifyLib/bin/Release/TextifyLib.dll`.
 
+If you prefer, the library is also available on <a href="https://www.nuget.org/packages/TextifyLib/">NuGet</a>
+
 You can also use the download button.
 
 ## How to use
