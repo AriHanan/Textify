@@ -2,6 +2,10 @@
 <img src="https://github.com/AriHanan/Textify/blob/master/Resources/full%20logo.png" alt="Textify" title="Textify" align="middle" height="150" />
 </p>
 
+<p align="center">
+[![NuGet](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg?style=flat-square)](https://www.nuget.org/packages/TextifyLib/)
+</p>
+
 Textify is a text application and library that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
 
 # Table of contents
