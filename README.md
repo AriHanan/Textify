@@ -20,20 +20,16 @@ Textify is a text application and library that converts text to typefaces (fonts
 
 ## Installation
 <a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/download/TextifyApp.zip">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="left" height="65" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="middle" height="65" />
 </a>
-
-<br>
 
 `Textify/TextifyApp/download/TextifyApp.zip` is a stand-alone and the only file you need.
 
 You can also use the fancy button above.
 
 <a href="https://github.com/AriHanan/Textify/raw/master/TextifyApp/download/TextifyPortable.exe">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="left" height="30" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/portable.png" alt="Download Portable" title="Download Portable" align="middle" height="40" />
 </a>
-
-<br>
 
 If you wish for a portable version theres a standalone in the same folder, however it does not remember the last choise upon restart, and it does not have the fancier icon when pinned to a Windows 10 start menu.
 
