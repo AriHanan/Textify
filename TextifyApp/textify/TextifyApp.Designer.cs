@@ -634,7 +634,9 @@
             this.MaximizeBox = false;
             this.Name = "TextifyApp";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Textify";
+            this.LocationChanged += new System.EventHandler(this.SaveHandler);
             ((System.ComponentModel.ISupportInitialize)(this.zalgo_intensity)).EndInit();
             this.zalgo_group.ResumeLayout(false);
             this.zalgo_group.PerformLayout();

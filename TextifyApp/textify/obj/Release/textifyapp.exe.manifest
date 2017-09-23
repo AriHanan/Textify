@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1543616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="textifyapp.exe" size="1544128">
       <assemblyIdentity name="textifyapp" version="1.5.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uGhOnZ+bZiPdQbzbDSvRrrkc/U7nf/3AIYNpTNs9bxs=</dsig:DigestValue>
+        <dsig:DigestValue>sRPyx2kEvH3L5Fy6SPayNMJj+Dc4XnX2EUVHIBtELGg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -81,13 +81,13 @@
       <dsig:DigestValue>KCQsl4sdhEZPciZoF6jqFVw/Q4wKfH6LEVqPula3rLk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="textifyapp.exe.config" size="189">
+  <file name="textifyapp.exe.config" size="234">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+      <dsig:DigestValue>A4gobLZ2w7GwlbOOcjKsVba2p7o4i4d+Yyynpjr/P64=</dsig:DigestValue>
     </hash>
   </file>
   <file name="textifyapp.visualelementsmanifest.xml" size="356" writeableType="applicationData">

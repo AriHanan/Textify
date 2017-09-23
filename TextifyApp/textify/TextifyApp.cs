@@ -27,34 +27,41 @@ namespace TextifyApp
         public TextifyApp()
         {
             InitializeComponent();
-            
+
             try
             {
                 if (File.Exists("sliders"))
                 {
-                    StreamReader file = new StreamReader("sliders");
-                    Int32  .TryParse(file.ReadLine(), out int  intensity);
-                    Boolean.TryParse(file.ReadLine(), out bool top      );
-                    Boolean.TryParse(file.ReadLine(), out bool mid      );
-                    Boolean.TryParse(file.ReadLine(), out bool buttom   );
-                    Int32  .TryParse(file.ReadLine(), out int  chosenone);
-                    file.Close();
-                    zalgo_intensity.Value = Math.Max(Math.Min(intensity, zalgo_intensity.Maximum), zalgo_intensity.Minimum);
-                    zalgo_top   .Checked = top   ;
-                    zalgo_middle.Checked = mid   ;
-                    zalgo_buttom.Checked = buttom;
-                    chosenone += 2;
-                    foreach (Control control in Controls)
+                    try
                     {
-                        if (control is RadioButton)
+                        StreamReader file = new StreamReader("sliders");
+                        Int32.TryParse(file.ReadLine(), out int intensity);
+                        Boolean.TryParse(file.ReadLine(), out bool top);
+                        Boolean.TryParse(file.ReadLine(), out bool mid);
+                        Boolean.TryParse(file.ReadLine(), out bool buttom);
+                        Int32.TryParse(file.ReadLine(), out int chosenone);
+                        Int32.TryParse(file.ReadLine(), out int winposx);
+                        Int32.TryParse(file.ReadLine(), out int winposy);
+                        file.Close();
+                        zalgo_intensity.Value = Math.Max(Math.Min(intensity, zalgo_intensity.Maximum), zalgo_intensity.Minimum);
+                        zalgo_top.Checked = top;
+                        zalgo_middle.Checked = mid;
+                        zalgo_buttom.Checked = buttom;
+                        chosenone += 2;
+                        foreach (Control control in Controls)
                         {
-                            RadioButton radio = control as RadioButton;
-                            if (radio.TabIndex == chosenone)
+                            if (control is RadioButton)
                             {
-                                radio.Checked = true;
+                                RadioButton radio = control as RadioButton;
+                                if (radio.TabIndex == chosenone)
+                                {
+                                    radio.Checked = true;
+                                }
                             }
                         }
+                        Location = new System.Drawing.Point(winposx, winposy);
                     }
+                    catch { }
                     save = true;
                 }
                 else
@@ -530,30 +537,36 @@ namespace TextifyApp
 
         private void Save()
         {
-            if (save)
+            try
             {
-                int chosenone = 0;
-                foreach (Control control in Controls)
+                if (save)
                 {
-                    if (control is RadioButton)
+                    int chosenone = 0;
+                    foreach (Control control in Controls)
                     {
-                        RadioButton radio = control as RadioButton;
-                        if (radio.Checked)
+                        if (control is RadioButton)
                         {
-                            chosenone = radio.TabIndex - 2;
+                            RadioButton radio = control as RadioButton;
+                            if (radio.Checked)
+                            {
+                                chosenone = radio.TabIndex - 2;
+                            }
                         }
                     }
+
+                    StreamWriter file = new StreamWriter("sliders");
+                    file.WriteLine(zalgo_intensity.Value);
+                    file.WriteLine(zalgo_top.Checked);
+                    file.WriteLine(zalgo_middle.Checked);
+                    file.WriteLine(zalgo_buttom.Checked);
+                    file.WriteLine(chosenone);
+                    file.WriteLine(Location.X);
+                    file.WriteLine(Location.Y);
+
+                    file.Close();
                 }
-
-                StreamWriter file = new StreamWriter("sliders");
-                file.WriteLine(zalgo_intensity.Value);
-                file.WriteLine(zalgo_top.Checked);
-                file.WriteLine(zalgo_middle.Checked);
-                file.WriteLine(zalgo_buttom.Checked);
-                file.WriteLine(chosenone);
-
-                file.Close();
             }
+            catch { }
         }
 
         private void Labler()
@@ -686,6 +699,14 @@ namespace TextifyApp
         {
             Instructions dialog = new Instructions();
             dialog.ShowDialog();
+        }
+
+        private void SaveHandler(object sender, EventArgs e)
+        {
+            if (working)
+            {
+                Save();
+            }
         }
     }
 
