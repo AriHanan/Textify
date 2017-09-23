@@ -708,6 +708,23 @@ namespace TextifyApp
                 Save();
             }
         }
+
+        private void DragNDrop(object sender, DragEventArgs e)
+        {
+            c_txt.Text = (string)e.Data.GetData(DataFormats.Text);
+        }
+
+        private void DragNEnter(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Text) && (e.AllowedEffect & DragDropEffects.Copy) != 0)
+            {
+                e.Effect = DragDropEffects.Copy;
+            }
+            else
+            {
+                e.Effect = DragDropEffects.None;
+            }
+        }
     }
 
     public static class Zalgo

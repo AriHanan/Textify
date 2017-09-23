@@ -589,6 +589,7 @@
             // 
             // TextifyApp
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 375);
@@ -637,6 +638,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Textify";
             this.LocationChanged += new System.EventHandler(this.SaveHandler);
+            this.DragDrop += new System.Windows.Forms.DragEventHandler(this.DragNDrop);
+            this.DragEnter += new System.Windows.Forms.DragEventHandler(this.DragNEnter);
             ((System.ComponentModel.ISupportInitialize)(this.zalgo_intensity)).EndInit();
             this.zalgo_group.ResumeLayout(false);
             this.zalgo_group.PerformLayout();
