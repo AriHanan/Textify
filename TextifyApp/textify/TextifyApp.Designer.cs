@@ -79,6 +79,8 @@
             this.c_txt.AcceptsReturn = true;
             this.c_txt.AcceptsTab = true;
             this.c_txt.AllowDrop = true;
+            this.c_txt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.c_txt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.c_txt.Dock = System.Windows.Forms.DockStyle.Top;
             this.c_txt.Location = new System.Drawing.Point(0, 0);
             this.c_txt.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
