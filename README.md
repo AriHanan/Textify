@@ -104,7 +104,7 @@ For version history go to <a href="https://github.com/AriHanan/Textify/releases"
 
 ## Setup
 <a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyLib.dll">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="7" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="70" />
 </a>
 
 The library is available at `Textify/TextifyLib/TextifyLib/bin/Release/TextifyLib.dll`.
