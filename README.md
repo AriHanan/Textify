@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/full%20logo.png" alt="Textify" title="Textify" align="middle" height="200" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/cover.png" alt="Textify" title="Textify" align="middle" />
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ For version history go to <a href="https://github.com/AriHanan/Textify/releases"
 
 ## Setup
 <a href="https://github.com/AriHanan/Textify/releases/download/v1.5.0/TextifyLib.dll">
-	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="70" />
+	<img src="https://github.com/AriHanan/Textify/blob/master/Resources/download.png" alt="Download" title="Download" align="right" height="7" />
 </a>
 
 The library is available at `Textify/TextifyLib/TextifyLib/bin/Release/TextifyLib.dll`.
