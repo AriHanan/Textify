@@ -1,2 +1,2 @@
 language: csharp
-solution: TextifyApp\Textify.sln
+solution: TextifyApp/Textify.sln
