@@ -7,6 +7,12 @@
 		<img src="https://img.shields.io/nuget/dt/TextifyLib.svg" alt="Downloads" title="Downloads"/>
 		<img src="https://img.shields.io/nuget/v/TextifyLib.svg" alt="Nuget" title="Nuget"/>
 	</a>
+	<a href="https://travis-ci.org/AriHanan/Textify">
+		<img src="https://img.shields.io/travis/AriHanan/Textify.svg" alt="Travis CI" title="Travis CI"/>
+	</a>
+	<a href="https://github.com/AriHanan/Textify/releases">
+		<img src="https://img.shields.io/github/release/AriHanan/Textify.svg" alt="Version" title="Version"/>
+	</a>
 </p>
 
 Textify is a text application and library that converts text to typefaces (fonts) that you can use in every chat app using Unicode and LaTeX technologies.
